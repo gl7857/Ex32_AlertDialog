@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         adb.setPositiveButton("Close", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
+                dialogInterface.cancel();
             }
         });
         AlertDialog ad = adb.create();
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         adb.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
+                dialogInterface.cancel();
             }
         });
         AlertDialog ad = adb.create();

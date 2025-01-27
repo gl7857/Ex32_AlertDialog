@@ -121,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@Nullable MenuItem item) {
         int id = item.getItemId();
-
         if(id == R.id.menuCredits) {
             Intent si = new Intent(this, Activity2credits.class);
             startActivity(si);
